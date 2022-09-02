@@ -1,0 +1,72 @@
+body {margin:0;}
+.navbar {
+    overflow: hidden;
+    background-color: rgb(85, 45, 45);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.tag{
+    padding: 20px;
+    margin: 15px;
+    border:1px solid grey;
+    width:300px;
+    border-radius:30px;
+    box-shadow: 0 0 12px rgb(52, 52, 52);
+    background: rgb(161, 99, 99);
+}
+.tag-1{
+    width:100%;
+    border-radius:20px;
+    box-shadow: 0 0 8px rgb(84, 84, 84)
+}
+.profile-icon{
+    border-radius: 50px;
+}
+.name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn{
+    border:1px solid rgb(68, 41, 41);
+    background-color: rgb(68, 41, 41);
+    color:whitesmoke;
+    border-radius: 40px;
+    width:170px;
+    padding: 15px 30px;
+    margin: 0px 40px;
+    box-shadow: 1px 5px 10px rgb(68, 41, 41);
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tag:hover{
+    animation-name: tag;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes tag {
+    100%{
+        transform:rotate(5deg);
+        box-shadow: 5px 10px 18px rgb(68, 41, 41);
+    }
+    
+}
+
+.MAIN{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 45px;
+}
