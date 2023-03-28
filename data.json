@@ -1,0 +1,54 @@
+{
+  "Json Requestbody": [
+    {
+      "email": "johndoe@example.com",
+      "companies": [
+        "Acme Corporation",
+        "Globex Corporation",
+        "Stark Industries",
+        "Wayne Enterprises",
+        "Umbrella Corporation"
+      ]
+    },
+    {
+      "email": "janedoe@example.com",
+      "companies": [
+        "Weyland-Yutani Corporation",
+        "LexCorp",
+        "Oscorp Industries",
+        "Spacely Space Sprockets",
+        "Initech Corporation"
+      ]
+    },
+    {
+      "email": "bobsmith@example.com",
+      "companies": [
+        "Monarch Sciences",
+        "Aperture Science",
+        "Buy-N-Large Corporation",
+        "Gringotts Wizarding Bank",
+        "Krusty Krab Enterprises"
+      ]
+    },
+    {
+      "email": "sarahlee@example.com",
+      "companies": [
+        "Hogwarts School of Witchcraft and Wizardry",
+        "Starfleet Command",
+        "Abstergo Industries",
+        "Starkiller Industries",
+        "The Daily Planet"
+      ]
+    },
+    {
+      "email": "davidkim@example.com",
+      "companies": [
+        "Prestige Worldwide",
+        "Wonka Industries",
+        "InGen Corporation",
+        "Cyberdyne Systems",
+        "Gekko and Co."
+      ]
+    }
+  ]
+}
