@@ -1,7 +1,7 @@
 {
   "Json Requestbody": [
     {
-      "email": "johndoe@example.com",
+      "email": "demo@thenotary.app",
       "companies": [
         "Acme Corporation",
         "Globex Corporation",
